@@ -422,6 +422,9 @@ ParseItemData(ItemDataText, ByRef RarityLevel="")
             {
                 AffixDetails := AssembleAffixDetails()
                 TT = %TT%`n--------%AffixDetails%
+
+                AffixStats := AssembleAffixStats()
+                TT = %TT%`n--------%AffixStats%
            }
         }
     }
